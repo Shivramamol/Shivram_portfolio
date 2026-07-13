@@ -4,17 +4,17 @@ import { experience } from "@/lib/portfolio-data";
 export const Route = createFileRoute("/experience")({
   head: () => ({
     meta: [
-      { title: "Experience — Alex Morgan" },
+      { title: "Experience — Shivram Parkhi" },
       {
         name: "description",
         content:
-          "Alex Morgan's professional experience across product design, UX, and creative development.",
+          "Shivram Parkhi's professional experience across software development, CAD customization, and ServiceNow administration.",
       },
-      { property: "og:title", content: "Experience — Alex Morgan" },
+      { property: "og:title", content: "Experience — Shivram Parkhi" },
       {
         property: "og:description",
         content:
-          "Alex Morgan's professional experience across product design, UX, and creative development.",
+          "Shivram Parkhi's professional experience across software development, CAD customization, and ServiceNow administration.",
       },
     ],
   }),
@@ -63,21 +63,11 @@ function ExperiencePage() {
         </div>
 
         <div className="mt-20 rounded-2xl border border-white/10 bg-card/30 p-8 md:p-12">
-          <div className="grid gap-8 md:grid-cols-2">
-            <div>
-              <h2 className="font-display text-2xl text-foreground">Education</h2>
-              <div className="mt-6">
-                <p className="text-foreground">BFA in Graphic Design</p>
-                <p className="text-sm text-muted-foreground">Rhode Island School of Design, 2015</p>
-              </div>
-            </div>
-            <div>
-              <h2 className="font-display text-2xl text-foreground">Recognition</h2>
-              <ul className="mt-6 space-y-2 text-sm text-muted-foreground">
-                <li>Awwwards Site of the Day — 2023</li>
-                <li>FWA of the Month — 2022</li>
-                <li>Adobe Design Achievement Awards — Finalist</li>
-              </ul>
+          <div>
+            <h2 className="font-display text-2xl text-foreground">Education</h2>
+            <div className="mt-6">
+              <p className="text-foreground">B.E. in Computer Science</p>
+              <p className="text-sm text-muted-foreground">Pune, Maharashtra, India</p>
             </div>
           </div>
         </div>

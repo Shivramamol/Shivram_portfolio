@@ -5,17 +5,17 @@ import { ProjectCard } from "@/components/ProjectCard";
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Projects — Alex Morgan" },
+      { title: "Projects — Shivram Parkhi" },
       {
         name: "description",
         content:
-          "A curated selection of design and development work by Alex Morgan, spanning brand identity, digital products, and web experiences.",
+          "A selection of software projects by Shivram Parkhi, spanning computer vision, automation, and web tools.",
       },
-      { property: "og:title", content: "Projects — Alex Morgan" },
+      { property: "og:title", content: "Projects — Shivram Parkhi" },
       {
         property: "og:description",
         content:
-          "A curated selection of design and development work by Alex Morgan, spanning brand identity, digital products, and web experiences.",
+          "A selection of software projects by Shivram Parkhi, spanning computer vision, automation, and web tools.",
       },
     ],
   }),
