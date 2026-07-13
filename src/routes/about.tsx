@@ -4,17 +4,17 @@ import { about, skills, siteConfig } from "@/lib/portfolio-data";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Alex Morgan" },
+      { title: "About — Shivram Parkhi" },
       {
         name: "description",
         content:
-          "Learn about Alex Morgan's background, approach, and skills as a creative developer and designer.",
+          "Learn about Shivram Parkhi's background, approach, and skills as a creative developer and designer.",
       },
-      { property: "og:title", content: "About — Alex Morgan" },
+      { property: "og:title", content: "About — Shivram Parkhi" },
       {
         property: "og:description",
         content:
-          "Learn about Alex Morgan's background, approach, and skills as a creative developer and designer.",
+          "Learn about Shivram Parkhi's background, approach, and skills as a creative developer and designer.",
       },
     ],
   }),

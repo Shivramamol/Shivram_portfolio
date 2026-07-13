@@ -21,7 +21,7 @@ export function Header() {
           to="/"
           className="font-display text-xl tracking-tight text-foreground transition-colors hover:text-primary"
         >
-          Alex Morgan
+          Shivram Parkhi
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

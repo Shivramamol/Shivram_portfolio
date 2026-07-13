@@ -7,7 +7,6 @@ export const siteConfig = {
     discord: "https://discord.com/users/shivramparkhi_40164",
     github: "https://github.com/Shivramamol",
     linkedin: "https://www.linkedin.com/in/shivram-parkhi-4311ba300/",
-    dribbble: "https://dribbble.com/alexmorgan",
   },
 };
 
