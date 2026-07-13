@@ -24,64 +24,48 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "luminex",
-    title: "Luminex",
-    category: "Brand Identity",
+    id: "drone-detection",
+    title: "Drone Detection",
+    category: "Computer Vision",
     description:
-      "A complete visual identity system for a quantum computing startup, balancing scientific precision with human warmth.",
+      "Python-based system for detecting drones in video streams using computer vision and machine learning techniques.",
     year: "2024",
-    image: "/images/projects/luminex.jpg",
-    tags: ["Branding", "Visual Identity", "Print"],
+    image: "/images/projects/synapse.jpg",
+    link: "https://github.com/Shivramamol/drone-detection",
+    tags: ["Python", "Computer Vision", "ML"],
   },
   {
-    id: "nocturne",
-    title: "Nocturne",
-    category: "Digital Product",
+    id: "hackerrank-orchestrate",
+    title: "HackerRank Orchestrate",
+    category: "Automation",
     description:
-      "An immersive music discovery app designed for late-night listening sessions and deep focus.",
+      "Python automation utility for orchestrating and managing HackerRank workflows and test executions.",
     year: "2024",
-    image: "/images/projects/nocturne.jpg",
-    tags: ["UI/UX", "Mobile", "Design System"],
-  },
-  {
-    id: "atlas",
-    title: "Atlas Archive",
-    category: "Web Design",
-    description:
-      "Editorial website for an independent architecture journal, built around a flexible typographic grid.",
-    year: "2023",
     image: "/images/projects/atlas.jpg",
-    tags: ["Web Design", "Typography", "CMS"],
+    link: "https://github.com/Shivramamol/hackerrank_orchestarte",
+    tags: ["Python", "Automation", "Tooling"],
   },
   {
-    id: "velvet",
-    title: "Velvet",
-    category: "E-commerce",
+    id: "employee-mansys",
+    title: "Employee Management System",
+    category: "Web App",
     description:
-      "A premium skincare brand experience with soft gradients, tactile photography, and seamless checkout.",
+      "A simple employee management system built with JavaScript for tracking staff records and organizational data.",
+    year: "2023",
+    image: "/images/projects/luminex.jpg",
+    link: "https://github.com/Shivramamol/simple_employee_mansys",
+    tags: ["JavaScript", "CRUD", "Web"],
+  },
+  {
+    id: "simple-interest",
+    title: "Simple Interest Calculator",
+    category: "Web Tool",
+    description:
+      "Lightweight HTML calculator for computing simple interest with a clean, distraction-free interface.",
     year: "2023",
     image: "/images/projects/velvet.jpg",
-    tags: ["E-commerce", "Art Direction", "Packaging"],
-  },
-  {
-    id: "synapse",
-    title: "Synapse",
-    category: "Data Visualization",
-    description:
-      "Interactive dashboard transforming complex neural research data into clear, explorable stories.",
-    year: "2022",
-    image: "/images/projects/synapse.jpg",
-    tags: ["Dashboard", "Data Viz", "React"],
-  },
-  {
-    id: "ember",
-    title: "Ember",
-    category: "Campaign",
-    description:
-      "Launch campaign for a sustainable energy company, blending documentary photography with bold typographic statements.",
-    year: "2022",
-    image: "/images/projects/ember.jpg",
-    tags: ["Campaign", "Art Direction", "Social"],
+    link: "https://github.com/Shivramamol/Simple_Interest_Calculator",
+    tags: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
@@ -95,36 +79,20 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
-    id: "senior-designer",
-    role: "Senior Product Designer",
-    company: "Stripe",
-    period: "2022 — Present",
+    id: "servicenow-vip",
+    role: "Virtual Internship Program — ServiceNow Administrator",
+    company: "ServiceNow University",
+    period: "Jun 2026 · Remote · 1 month",
     description:
-      "Leading design for developer-facing tools and payment experiences. Shaping design systems and mentoring a growing team.",
+      "Completed the ServiceNow University Virtual Internship focused on ServiceNow administration, platform configuration, and workflow fundamentals.",
   },
   {
-    id: "product-designer",
-    role: "Product Designer",
-    company: "Figma",
-    period: "2019 — 2022",
+    id: "sunfibo-intern",
+    role: "Software Intern",
+    company: "Sun Fibo Technology Pvt. Ltd.",
+    period: "Jun 2025 — Aug 2025 · Hybrid · 3 months",
     description:
-      "Designed collaboration features used by millions of designers. Helped evolve the component system and prototyping workflows.",
-  },
-  {
-    id: "ux-designer",
-    role: "UX Designer",
-    company: "Airbnb",
-    period: "2017 — 2019",
-    description:
-      "Worked on search and discovery experiences, improving how guests find and book unique stays around the world.",
-  },
-  {
-    id: "freelance",
-    role: "Freelance Designer & Developer",
-    company: "Independent",
-    period: "2015 — 2017",
-    description:
-      "Built brands and websites for early-stage startups, agencies, and cultural institutions.",
+      "Worked on CAD customization and software development across C#, C++, C, and Python — building internal tooling and extensions for CAD workflows.",
   },
 ];
 
