@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Alex Morgan",
   role: "Creative Developer & Designer",
-  email: "hello@alexmorgan.design",
-  location: "San Francisco, CA",
+  email: "shivramparkhi@gmai.com",
+  location: "Pune,Maharashtra,India",
   social: {
     twitter: "https://twitter.com/alexmorgan",
     github: "https://github.com/alexmorgan",
