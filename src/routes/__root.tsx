@@ -79,18 +79,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Alex Morgan — Creative Developer & Designer" },
+      { title: "Shivram Parkhi — Creative Developer & Designer" },
       {
         name: "description",
         content:
-          "Portfolio of Alex Morgan, a creative developer and designer crafting digital experiences that feel considered, intuitive, and quietly bold.",
+          "Portfolio of Shivram Parkhi, a creative developer and designer crafting digital experiences that feel considered, intuitive, and quietly bold.",
       },
-      { name: "author", content: "Alex Morgan" },
-      { property: "og:title", content: "Alex Morgan — Creative Developer & Designer" },
+      { name: "author", content: "Shivram Parkhi" },
+      { property: "og:title", content: "Shivram Parkhi — Creative Developer & Designer" },
       {
         property: "og:description",
         content:
-          "Portfolio of Alex Morgan, a creative developer and designer crafting digital experiences that feel considered, intuitive, and quietly bold.",
+          "Portfolio of Shivram Parkhi, a creative developer and designer crafting digital experiences that feel considered, intuitive, and quietly bold.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

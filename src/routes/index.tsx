@@ -6,17 +6,17 @@ import { ProjectCard } from "@/components/ProjectCard";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Morgan — Creative Developer & Designer" },
+      { title: "Shivram Parkhi — Creative Developer & Designer" },
       {
         name: "description",
         content:
-          "Portfolio of Alex Morgan, a creative developer and designer crafting digital experiences that feel considered, intuitive, and quietly bold.",
+          "Portfolio of Shivram Parkhi, a creative developer and designer crafting digital experiences that feel considered, intuitive, and quietly bold.",
       },
-      { property: "og:title", content: "Alex Morgan — Creative Developer & Designer" },
+      { property: "og:title", content: "Shivram Parkhi — Creative Developer & Designer" },
       {
         property: "og:description",
         content:
-          "Portfolio of Alex Morgan, a creative developer and designer crafting digital experiences that feel considered, intuitive, and quietly bold.",
+          "Portfolio of Shivram Parkhi, a creative developer and designer crafting digital experiences that feel considered, intuitive, and quietly bold.",
       },
     ],
   }),

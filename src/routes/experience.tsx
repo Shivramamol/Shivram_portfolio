@@ -65,9 +65,19 @@ function ExperiencePage() {
         <div className="mt-20 rounded-2xl border border-white/10 bg-card/30 p-8 md:p-12">
           <div>
             <h2 className="font-display text-2xl text-foreground">Education</h2>
-            <div className="mt-6">
-              <p className="text-foreground">B.E. in Computer Science</p>
-              <p className="text-sm text-muted-foreground">Pune, Maharashtra, India</p>
+            <div className="mt-6 space-y-6">
+              <div>
+                <p className="text-foreground">B.E. in Computer Science</p>
+                <p className="text-sm text-muted-foreground">Pune, Maharashtra, India</p>
+              </div>
+              <div>
+                <p className="text-foreground">Diploma in Computer Engineering</p>
+                <p className="text-sm text-muted-foreground">Pimpri Chinchwad Polytechnic, Pune</p>
+              </div>
+              <div>
+                <p className="text-foreground">SSC</p>
+                <p className="text-sm text-muted-foreground">Jai Hind High School, Pune</p>
+              </div>
             </div>
           </div>
         </div>

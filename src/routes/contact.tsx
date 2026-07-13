@@ -5,17 +5,17 @@ import { siteConfig } from "@/lib/portfolio-data";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Alex Morgan" },
+      { title: "Contact — Shivram Parkhi" },
       {
         name: "description",
         content:
-          "Get in touch with Alex Morgan for design, development, and creative collaboration opportunities.",
+          "Get in touch with Shivram Parkhi for design, development, and creative collaboration opportunities.",
       },
-      { property: "og:title", content: "Contact — Alex Morgan" },
+      { property: "og:title", content: "Contact — Shivram Parkhi" },
       {
         property: "og:description",
         content:
-          "Get in touch with Alex Morgan for design, development, and creative collaboration opportunities.",
+          "Get in touch with Shivram Parkhi for design, development, and creative collaboration opportunities.",
       },
     ],
   }),
