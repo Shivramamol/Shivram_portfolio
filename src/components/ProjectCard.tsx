@@ -56,6 +56,4 @@ export function ProjectCard({ project, featured = false }: ProjectCardProps) {
     </article>
   );
 }
-    </article>
-  );
-}
+
