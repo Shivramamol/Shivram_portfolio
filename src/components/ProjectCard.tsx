@@ -52,7 +52,10 @@ export function ProjectCard({ project, featured = false }: ProjectCardProps) {
             ))}
           </div>
         </div>
-      </Link>
+      </a>
+    </article>
+  );
+}
     </article>
   );
 }
