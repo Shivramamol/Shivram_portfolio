@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Alex Morgan",
+  name: "Shivram Parkhi",
   role: "Creative Developer & Designer",
   email: "shivramparkhi@gmai.com",
   location: "Pune,Maharashtra,India",
