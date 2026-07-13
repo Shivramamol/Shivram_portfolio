@@ -68,15 +68,15 @@ function ExperiencePage() {
             <div className="mt-6 space-y-6">
               <div>
                 <p className="text-foreground">B.E. in Computer Science</p>
-                <p className="text-sm text-muted-foreground">Pune, Maharashtra, India</p>
+                <p className="text-sm text-muted-foreground">Pune, Maharashtra, India · Currently pursuing</p>
               </div>
               <div>
                 <p className="text-foreground">Diploma in Computer Engineering</p>
-                <p className="text-sm text-muted-foreground">Pimpri Chinchwad Polytechnic, Pune</p>
+                <p className="text-sm text-muted-foreground">Pimpri Chinchwad Polytechnic, Pune · 2026 · 95.8%</p>
               </div>
               <div>
                 <p className="text-foreground">SSC</p>
-                <p className="text-sm text-muted-foreground">Jai Hind High School, Pune</p>
+                <p className="text-sm text-muted-foreground">Jai Hind High School, Pune · 2023 · 91.20%</p>
               </div>
             </div>
           </div>
