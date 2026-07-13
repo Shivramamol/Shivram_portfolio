@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Mail, MapPin, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin, MessageCircle } from "lucide-react";
 import { siteConfig } from "@/lib/portfolio-data";
 
 export const Route = createFileRoute("/contact")({
@@ -66,13 +66,13 @@ function ContactPage() {
 
             <div className="mt-10 flex items-center gap-4">
               <a
-                href={siteConfig.social.twitter}
+                href={siteConfig.social.discord}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 text-muted-foreground transition-colors hover:border-primary/30 hover:text-foreground"
-                aria-label="Twitter"
+                aria-label="Discord"
               >
-                <Twitter className="h-5 w-5" />
+                <MessageCircle className="h-5 w-5" />
               </a>
               <a
                 href={siteConfig.social.github}

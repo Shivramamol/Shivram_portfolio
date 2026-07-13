@@ -1,5 +1,5 @@
 import { siteConfig } from "@/lib/portfolio-data";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, MessageCircle } from "lucide-react";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -14,13 +14,13 @@ export function Footer() {
 
         <div className="flex items-center gap-6">
           <a
-            href={siteConfig.social.twitter}
+            href={siteConfig.social.discord}
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-foreground"
-            aria-label="Twitter"
+            aria-label="Discord"
           >
-            <Twitter className="h-5 w-5" />
+            <MessageCircle className="h-5 w-5" />
           </a>
           <a
             href={siteConfig.social.github}
