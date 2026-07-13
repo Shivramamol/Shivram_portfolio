@@ -1,4 +1,3 @@
-import { Link } from "@tanstack/react-router";
 import { ArrowUpRight } from "lucide-react";
 import type { Project } from "@/lib/portfolio-data";
 
@@ -8,9 +7,15 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ project, featured = false }: ProjectCardProps) {
+  const href = project.link || "#";
+  const isExternal = href.startsWith("http");
   return (
     <article className="group break-inside-avoid rounded-xl border border-white/10 bg-card/50 p-3 backdrop-blur-sm transition-all duration-300 hover:border-primary/30 hover:bg-card">
-      <Link to={project.link || "#"} className="block">
+      <a
+        href={href}
+        {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+        className="block"
+      >
         <div className="relative overflow-hidden rounded-lg">
           <img
             src={project.image}
