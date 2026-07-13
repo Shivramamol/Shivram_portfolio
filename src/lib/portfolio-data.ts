@@ -1,12 +1,12 @@
 export const siteConfig = {
   name: "Shivram Parkhi",
   role: "Creative Developer & Designer",
-  email: "shivramparkhi@gmai.com",
-  location: "Pune,Maharashtra,India",
+  email: "shivramparkhi@gmail.com",
+  location: "Pune, Maharashtra, India",
   social: {
     twitter: "https://twitter.com/alexmorgan",
-    github: "https://github.com/alexmorgan",
-    linkedin: "https://linkedin.com/in/alexmorgan",
+    github: "https://github.com/Shivramamol",
+    linkedin: "https://www.linkedin.com/in/shivram-parkhi-4311ba300/",
     dribbble: "https://dribbble.com/alexmorgan",
   },
 };
