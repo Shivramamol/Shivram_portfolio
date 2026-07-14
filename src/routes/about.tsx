@@ -81,6 +81,22 @@ function AboutPage() {
               </div>
             </div>
 
+            <div className="mt-16">
+              <h2 className="font-display text-2xl text-foreground">Certifications</h2>
+              <ul className="mt-6 divide-y divide-white/10 rounded-2xl border border-white/10 bg-card/30">
+                {certifications.map((cert) => (
+                  <li key={cert.id} className="flex flex-col gap-1 p-5 md:flex-row md:items-baseline md:justify-between">
+                    <div>
+                      <p className="text-foreground">{cert.title}</p>
+                      <p className="text-sm text-muted-foreground">{cert.issuer}</p>
+                    </div>
+                    <span className="text-sm font-medium text-primary">{cert.year}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+
             <div className="mt-16 rounded-2xl border border-white/10 bg-card/30 p-8">
               <h2 className="font-display text-2xl text-foreground">Approach</h2>
               <ul className="mt-6 space-y-4 text-muted-foreground">
