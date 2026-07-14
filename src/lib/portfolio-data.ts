@@ -66,6 +66,17 @@ export const projects: Project[] = [
     link: "https://github.com/Shivramamol/Simple_Interest_Calculator",
     tags: ["HTML", "CSS", "JavaScript"],
   },
+  {
+    id: "aharix",
+    title: "Aharix",
+    category: "Mobile App",
+    description:
+      "A mobile application built using Kotlin and Java, designed to deliver a smooth native Android experience.",
+    year: "2024",
+    image: "/images/projects/ember.jpg",
+    link: "https://github.com/Shivramamol/aharix",
+    tags: ["Kotlin", "Java", "Android"],
+  },
 ];
 
 export interface ExperienceItem {
