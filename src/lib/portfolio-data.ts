@@ -71,7 +71,7 @@ export const projects: Project[] = [
     title: "Aharix",
     category: "Mobile App",
     description:
-      "A mobile application built using Kotlin and Java, designed to deliver a smooth native Android experience.",
+      "A mobile application built using Kotlin and Java, designed to deliver a smooth native Android experience. A research paper based on this project was published on LinkedIn.",
     year: "2024",
     image: "/images/projects/ember.jpg",
     link: "https://github.com/Shivramamol/aharix",
