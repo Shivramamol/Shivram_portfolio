@@ -30,6 +30,13 @@ function AboutPage() {
           {/* Sidebar */}
           <aside className="lg:col-span-4">
             <div className="sticky top-28">
+              <div className="mb-8 overflow-hidden rounded-2xl border border-white/10 bg-card/30">
+                <img
+                  src={shivramPhoto.url}
+                  alt="Shivram Parkhi"
+                  className="aspect-[3/4] w-full object-cover"
+                />
+              </div>
               <p className="text-sm font-medium uppercase tracking-widest text-primary">About</p>
               <h1 className="mt-4 font-display text-5xl text-foreground md:text-6xl">
                 {siteConfig.name}
