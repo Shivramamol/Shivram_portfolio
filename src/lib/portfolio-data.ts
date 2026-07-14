@@ -107,14 +107,50 @@ export const experience: ExperienceItem[] = [
 ];
 
 export const skills = [
-  "UI/UX Design",
-  "Design Systems",
-  "Brand Identity",
-  "Frontend Development",
-  "Art Direction",
-  "Prototyping",
-  "Motion Design",
-  "User Research",
+  "C",
+  "C++",
+  "C#",
+  "Python",
+  "Java",
+  "Kotlin",
+  "JavaScript",
+  "HTML & CSS",
+  "Android Development",
+  "CAD Customization",
+  "ServiceNow Administration",
+  "Computer Vision",
+  "Machine Learning",
+  "Automation & Scripting",
+  "Git & GitHub",
+  "Problem Solving",
+];
+
+export interface Certification {
+  id: string;
+  title: string;
+  issuer: string;
+  year: string;
+}
+
+export const certifications: Certification[] = [
+  {
+    id: "servicenow-vip-cert",
+    title: "ServiceNow Administrator — Virtual Internship",
+    issuer: "ServiceNow University",
+    year: "2026",
+  },
+  {
+    id: "sunfibo-cert",
+    title: "Software Internship Completion",
+    issuer: "Sun Fibo Technology Pvt. Ltd.",
+    year: "2025",
+  },
+  {
+    id: "aharix-paper",
+    title: "Research Paper — Aharix Mobile Application",
+    issuer: "Published on LinkedIn",
+    year: "2024",
+  },
 ];
 
 export const about = {
