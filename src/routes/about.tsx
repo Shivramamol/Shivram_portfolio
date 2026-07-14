@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { about, skills, siteConfig } from "@/lib/portfolio-data";
+import { about, skills, certifications, siteConfig } from "@/lib/portfolio-data";
 import shivramPhoto from "@/assets/shivram_passsize.JPG.asset.json";
 
 export const Route = createFileRoute("/about")({
