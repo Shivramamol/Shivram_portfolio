@@ -29,7 +29,7 @@ export const projects: Project[] = [
     description:
       "Python-based system for detecting drones in video streams using computer vision and machine learning techniques.",
     year: "2026",
-    image: "/images/projects/synapse.jpg",
+    image: "/images/projects/drone-detection.jpg",
     link: "https://github.com/Shivramamol/drone-detection",
     tags: ["Python", "Computer Vision", "ML"],
   },
