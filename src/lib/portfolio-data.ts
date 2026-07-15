@@ -89,6 +89,14 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
+    id: "ibm-skillsbuild-ai-intern",
+    role: "AI Intern",
+    company: "IBM SkillsBuild",
+    period: "11 May 2026 — 21 Jun 2026 · Remote · 6 weeks",
+    description:
+      "Completed a 6-week AI internship focused on artificial intelligence and machine learning fundamentals. Gained hands-on experience with Python, popular ML libraries, and Google Colab for building and experimenting with AI/ML models.",
+  },
+  {
     id: "servicenow-vip",
     role: "Virtual Internship Program — ServiceNow Administrator",
     company: "ServiceNow University",
