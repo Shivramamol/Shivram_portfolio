@@ -29,7 +29,7 @@ export const projects: Project[] = [
     description:
       "Python-based system for detecting drones in video streams using computer vision and machine learning techniques.",
     year: "2026",
-    image: "/images/projects/synapse.jpg",
+    image: "/images/projects/drone-detection.jpg",
     link: "https://github.com/Shivramamol/drone-detection",
     tags: ["Python", "Computer Vision", "ML"],
   },
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     description:
       "Python automation utility for orchestrating and managing HackerRank workflows and test executions.",
     year: "2026",
-    image: "/images/projects/atlas.jpg",
+    image: "/images/projects/hackerrank-orchestrate.jpg",
     link: "https://github.com/Shivramamol/hackerrank_orchestarte",
     tags: ["Python", "Automation", "Tooling"],
   },
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     description:
       "A simple employee management system built with JavaScript for tracking staff records and organizational data.",
     year: "2023",
-    image: "/images/projects/luminex.jpg",
+    image: "/images/projects/employee-management.jpg",
     link: "https://github.com/Shivramamol/simple_employee_mansys",
     tags: ["JavaScript", "CRUD", "Web"],
   },
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     description:
       "Lightweight HTML calculator for computing simple interest with a clean, distraction-free interface.",
     year: "2023",
-    image: "/images/projects/velvet.jpg",
+    image: "/images/projects/simple-interest.jpg",
     link: "https://github.com/Shivramamol/Simple_Interest_Calculator",
     tags: ["HTML", "CSS", "JavaScript"],
   },
@@ -73,7 +73,7 @@ export const projects: Project[] = [
     description:
       "A mobile application built using Kotlin and Java, designed to deliver a smooth native Android experience. A research paper based on this project was published on IJRASET.",
     year: "2026",
-    image: "/images/projects/ember.jpg",
+    image: "/images/projects/aharix.jpg",
     link: "https://github.com/Shivramamol/aharix",
     tags: ["Kotlin", "Java", "Android"],
   },
