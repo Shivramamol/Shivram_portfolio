@@ -30,8 +30,9 @@ function ProjectsPage() {
           <p className="text-sm font-medium uppercase tracking-widest text-primary">Work</p>
           <h1 className="mt-4 font-display text-5xl text-foreground md:text-6xl">Projects</h1>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            A curated selection of work across brand identity, digital products, and web
-            experiences. Each project is a collaboration with teams who value craft.
+            A curated selection of work across healthcare, Defence, and web
+            experiences. Each project is a result of the patience with technique to
+            use with knowldge. Some of them are with teams who value craft.
           </p>
         </div>
 
