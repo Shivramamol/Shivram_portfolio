@@ -151,6 +151,36 @@ export const certifications: Certification[] = [
     issuer: "Published on IJRASET",
     year: "2026",
   },
+  {
+    id: "ai-fundamentals",
+    title: "Artificial Intelligence Fundamentals",
+    issuer: "IBM",
+    year: "2026",
+  },
+  {
+    id: "java-programming",
+    title: "Programming using Java",
+    issuer: "Infosys Springboard",
+    year: "2026",
+  },
+  {
+    id: "networking-intro",
+    title: "Introduction to Networking",
+    issuer: "NVIDIA",
+    year: "2025",
+  },
+  {
+    id: "generative-ai-intro",
+    title: "Introduction to Generative AI",
+    issuer: "Google Cloud Training Online",
+    year: "2025",
+  },
+  {
+    id: "ai-fluency",
+    title: "AI Fluency for Students",
+    issuer: "Anthropic",
+    year: "2026",
+  },
 ];
 
 export const about = {
