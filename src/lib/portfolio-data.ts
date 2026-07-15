@@ -28,7 +28,7 @@ export const projects: Project[] = [
     category: "Computer Vision",
     description:
       "Python-based system for detecting drones in video streams using computer vision and machine learning techniques.",
-    year: "2024",
+    year: "2026",
     image: "/images/projects/synapse.jpg",
     link: "https://github.com/Shivramamol/drone-detection",
     tags: ["Python", "Computer Vision", "ML"],
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     category: "Automation",
     description:
       "Python automation utility for orchestrating and managing HackerRank workflows and test executions.",
-    year: "2024",
+    year: "2026",
     image: "/images/projects/atlas.jpg",
     link: "https://github.com/Shivramamol/hackerrank_orchestarte",
     tags: ["Python", "Automation", "Tooling"],

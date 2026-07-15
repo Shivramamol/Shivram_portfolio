@@ -105,7 +105,7 @@ function HomePage() {
             <div>
               <p className="text-sm font-medium uppercase tracking-widest text-primary">About</p>
               <h2 className="mt-4 font-display text-3xl leading-snug text-foreground md:text-4xl">
-                A decade of shaping products, brands, and the spaces between them.
+                Year's&nbsp; of shaping products, brands, and the spaces between them.
               </h2>
             </div>
             <div>
