@@ -71,8 +71,8 @@ export const projects: Project[] = [
     title: "Aharix",
     category: "Mobile App",
     description:
-      "A mobile application built using Kotlin and Java, designed to deliver a smooth native Android experience. A research paper based on this project was published on LinkedIn.",
-    year: "2024",
+      "A mobile application built using Kotlin and Java, designed to deliver a smooth native Android experience. A research paper based on this project was published on IJRASET.",
+    year: "2026",
     image: "/images/projects/ember.jpg",
     link: "https://github.com/Shivramamol/aharix",
     tags: ["Kotlin", "Java", "Android"],
@@ -148,16 +148,16 @@ export const certifications: Certification[] = [
   {
     id: "aharix-paper",
     title: "Research Paper — Aharix Mobile Application",
-    issuer: "Published on LinkedIn",
-    year: "2024",
+    issuer: "Published on IJRASET",
+    year: "2026",
   },
 ];
 
 export const about = {
   headline: "I craft digital experiences that feel considered, intuitive, and quietly bold.",
   paragraphs: [
-    "With over a decade of experience across product design, brand identity, and frontend development, I help teams turn complex problems into elegant, human-centered solutions.",
+    "With over a 3 years of experience across software development, product design, and frontend development, I help teams turn complex problems into elegant, human-centered solutions.",
     "My work sits at the intersection of strategy and craft. I believe the best designs are not only beautiful but also purposeful — every interaction should earn its place.",
-    "When I'm not designing, you'll find me exploring brutalist architecture, collecting vintage typography books, or experimenting with generative art.",
+    "When I'm not designing, you'll find me exploring new tech specially in ai and related fields, collecting useful information, or experimenting with generative art. Also i like to play football⚽ and cricket 🏏 as it keeps me relax and healthy.",
   ],
 };
