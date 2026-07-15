@@ -158,6 +158,6 @@ export const about = {
   paragraphs: [
     "With over a 3 years of experience across software development, product design, and frontend development, I help teams turn complex problems into elegant, human-centered solutions.",
     "My work sits at the intersection of strategy and craft. I believe the best designs are not only beautiful but also purposeful — every interaction should earn its place.",
-    "When I'm not designing, you'll find me exploring new tech specially in ai and related fields, collecting useful information, or experimenting with generative art. Also i like to play football⚽ and cricket 🏏 as it keeps me relax and healthy.",
+    "When I'm not designing, you'll find me exploring new tech specially in AI and related fields, collecting useful information, or experimenting with generative art. Also, I like to play football⚽ and cricket 🏏 as it keeps me relax and healthy.",
   ],
 };
