@@ -67,8 +67,8 @@ function ExperiencePage() {
             <h2 className="font-display text-2xl text-foreground">Education</h2>
             <div className="mt-6 space-y-6">
               <div>
-                <p className="text-foreground">B.E. in Computer Science</p>
-                <p className="text-sm text-muted-foreground">Pune, Maharashtra, India · Currently pursuing</p>
+                <p className="text-foreground">B.Tech in Information Technology</p>
+                <p className="text-sm text-muted-foreground">Pimpri Chinchwad College Of Engineering, Akurdi · Currently pursuing</p>
               </div>
               <div>
                 <p className="text-foreground">Diploma in Computer Engineering</p>
