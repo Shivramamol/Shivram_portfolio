@@ -45,15 +45,14 @@ export const projects: Project[] = [
     tags: ["Python", "Automation", "Tooling"],
   },
   {
-    id: "employee-mansys",
-    title: "Employee Management System",
-    category: "Web App",
+    id: "campus-complaint-tracker",
+    title: "Secure Campus Complaint & Issue Tracker",
+    category: "Desktop App",
     description:
-      "A simple employee management system built with JavaScript for tracking staff records and organizational data.",
-    year: "2023",
-    image: "/images/projects/employee-management.jpg",
-    link: "https://github.com/Shivramamol/simple_employee_mansys",
-    tags: ["JavaScript", "CRUD", "Web"],
+      "Desktop complaint-management application with Student and Admin roles, complaint categories, and status tracking. Built with object-oriented design using complaint subclasses and file-based complaint storage, with planned authentication and role-specific history views.",
+    year: "2026",
+    image: "/images/projects/campus-complaint-tracker.jpg",
+    tags: ["Java", "Swing", "OOP"],
   },
   {
     id: "simple-interest",
