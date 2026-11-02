@@ -111,8 +111,9 @@ function HomePage() {
             <div>
               <p className="text-lg leading-relaxed text-muted-foreground">
                 I bring together design thinking and technical craft to create work that is both
-                beautiful and functional. From early-stage startups to global products, I help
-                teams find clarity and build with confidence.
+                beautiful and functional. Through internships at IBM SkillsBuild, ServiceNow, and
+                Sun Fibo Technology, I've built hands-on experience across AI/ML, platform
+                administration, and software development — turning ideas into working solutions.
               </p>
               <Link
                 to="/about"
