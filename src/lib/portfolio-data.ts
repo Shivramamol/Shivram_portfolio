@@ -1,3 +1,5 @@
+import campusComplaintTrackerImage from "../assets/campus-complaint-tracker-dashboard.png.asset.json";
+
 export const siteConfig = {
   name: "Shivram Parkhi",
   role: "Creative Developer & Designer",
@@ -51,7 +53,7 @@ export const projects: Project[] = [
     description:
       "Desktop complaint-management application with Student and Admin roles, complaint categories, and status tracking. Built with object-oriented design using complaint subclasses and file-based complaint storage, with planned authentication and role-specific history views.",
     year: "2026",
-    image: "/images/projects/campus-complaint-tracker.jpg",
+    image: campusComplaintTrackerImage.url,
     tags: ["Java", "Swing", "OOP"],
   },
   {
